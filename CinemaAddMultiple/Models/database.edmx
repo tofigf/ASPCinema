@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="kinoModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Countries">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="FillmGenre">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GenreId" Type="int" Nullable="false" />
+          <Property Name="FilmId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FilmCountry">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FilmId" Type="int" Nullable="false" />
+          <Property Name="CountryId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Films">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="YayimTarixi" Type="date" />
+          <Property Name="Duration" Type="int" />
+          <Property Name="Video" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Genres">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_FillmGenre_FillmGenre">
+          <End Role="Genres" Type="Self.Genres" Multiplicity="1" />
+          <End Role="FillmGenre" Type="Self.FillmGenre" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Genres">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FillmGenre">
+              <PropertyRef Name="GenreId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FillmGenre_Films">
+          <End Role="Films" Type="Self.Films" Multiplicity="1" />
+          <End Role="FillmGenre" Type="Self.FillmGenre" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Films">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FillmGenre">
+              <PropertyRef Name="FilmId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FilmCountry_Films">
+          <End Role="Countries" Type="Self.Countries" Multiplicity="1" />
+          <End Role="FilmCountry" Type="Self.FilmCountry" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Countries">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FilmCountry">
+              <PropertyRef Name="CountryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FilmCountry_Films1">
+          <End Role="Films" Type="Self.Films" Multiplicity="1" />
+          <End Role="FilmCountry" Type="Self.FilmCountry" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Films">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FilmCountry">
+              <PropertyRef Name="FilmId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="kinoModelStoreContainer">
+          <EntitySet Name="Countries" EntityType="Self.Countries" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FillmGenre" EntityType="Self.FillmGenre" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="FilmCountry" EntityType="Self.FilmCountry" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Films" EntityType="Self.Films" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Genres" EntityType="Self.Genres" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_FillmGenre_FillmGenre" Association="Self.FK_FillmGenre_FillmGenre">
+            <End Role="Genres" EntitySet="Genres" />
+            <End Role="FillmGenre" EntitySet="FillmGenre" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FillmGenre_Films" Association="Self.FK_FillmGenre_Films">
+            <End Role="Films" EntitySet="Films" />
+            <End Role="FillmGenre" EntitySet="FillmGenre" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FilmCountry_Films" Association="Self.FK_FilmCountry_Films">
+            <End Role="Countries" EntitySet="Countries" />
+            <End Role="FilmCountry" EntitySet="FilmCountry" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FilmCountry_Films1" Association="Self.FK_FilmCountry_Films1">
+            <End Role="Films" EntitySet="Films" />
+            <End Role="FilmCountry" EntitySet="FilmCountry" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="kinoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Country">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="FilmCountries" Relationship="kinoModel.FK_FilmCountry_Films" FromRole="Country" ToRole="FilmCountry" />
+        </EntityType>
+        <EntityType Name="FillmGenre">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GenreId" Type="Int32" Nullable="false" />
+          <Property Name="FilmId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Genre" Relationship="Self.FK_FillmGenre_FillmGenre" FromRole="FillmGenre" ToRole="Genres" />
+          <NavigationProperty Name="Film" Relationship="kinoModel.FK_FillmGenre_Films" FromRole="FillmGenre" ToRole="Film" />
+        </EntityType>
+        <EntityType Name="Genre">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="FillmGenres" Relationship="Self.FK_FillmGenre_FillmGenre" FromRole="Genres" ToRole="FillmGenre" />
+        </EntityType>
+        <Association Name="FK_FillmGenre_FillmGenre">
+          <End Role="Genres" Type="Self.Genre" Multiplicity="1" />
+          <End Role="FillmGenre" Type="Self.FillmGenre" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Genres">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FillmGenre">
+              <PropertyRef Name="GenreId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="kinoEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Countries" EntityType="Self.Country" />
+          <EntitySet Name="FillmGenres" EntityType="Self.FillmGenre" />
+          <EntitySet Name="Genres" EntityType="Self.Genre" />
+          <AssociationSet Name="FK_FillmGenre_FillmGenre" Association="Self.FK_FillmGenre_FillmGenre">
+            <End Role="Genres" EntitySet="Genres" />
+            <End Role="FillmGenre" EntitySet="FillmGenres" />
+          </AssociationSet>
+          <EntitySet Name="FilmCountries" EntityType="kinoModel.FilmCountry" />
+          <AssociationSet Name="FK_FilmCountry_Films" Association="kinoModel.FK_FilmCountry_Films">
+            <End Role="Country" EntitySet="Countries" />
+            <End Role="FilmCountry" EntitySet="FilmCountries" />
+          </AssociationSet>
+          <EntitySet Name="Films" EntityType="kinoModel.Film" />
+          <AssociationSet Name="FK_FillmGenre_Films" Association="kinoModel.FK_FillmGenre_Films">
+            <End Role="Film" EntitySet="Films" />
+            <End Role="FillmGenre" EntitySet="FillmGenres" />
+          </AssociationSet>
+          <AssociationSet Name="FK_FilmCountry_Films1" Association="kinoModel.FK_FilmCountry_Films1">
+            <End Role="Film" EntitySet="Films" />
+            <End Role="FilmCountry" EntitySet="FilmCountries" />
+          </AssociationSet>
+          </EntityContainer>
+        <EntityType Name="FilmCountry">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FilmId" Type="Int32" Nullable="false" />
+          <Property Name="CountryId" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Country" Relationship="kinoModel.FK_FilmCountry_Films" FromRole="FilmCountry" ToRole="Country" />
+          <NavigationProperty Name="Film" Relationship="kinoModel.FK_FilmCountry_Films1" FromRole="FilmCountry" ToRole="Film" />
+        </EntityType>
+        <Association Name="FK_FilmCountry_Films">
+          <End Type="kinoModel.Country" Role="Country" Multiplicity="1" />
+          <End Type="kinoModel.FilmCountry" Role="FilmCountry" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Country">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FilmCountry">
+              <PropertyRef Name="CountryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Film">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="YayimTarixi" Type="DateTime" Precision="0" />
+          <Property Name="Duration" Type="Int32" />
+          <Property Name="Video" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="FillmGenres" Relationship="kinoModel.FK_FillmGenre_Films" FromRole="Film" ToRole="FillmGenre" />
+          <NavigationProperty Name="FilmCountries" Relationship="kinoModel.FK_FilmCountry_Films1" FromRole="Film" ToRole="FilmCountry" />
+        </EntityType>
+        <Association Name="FK_FillmGenre_Films">
+          <End Type="kinoModel.Film" Role="Film" Multiplicity="1" />
+          <End Type="kinoModel.FillmGenre" Role="FillmGenre" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Film">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FillmGenre">
+              <PropertyRef Name="FilmId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_FilmCountry_Films1">
+          <End Type="kinoModel.Film" Role="Film" Multiplicity="1" />
+          <End Type="kinoModel.FilmCountry" Role="FilmCountry" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Film">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="FilmCountry">
+              <PropertyRef Name="FilmId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="kinoModelStoreContainer" CdmEntityContainer="kinoEntities">
+          <EntitySetMapping Name="Countries">
+            <EntityTypeMapping TypeName="kinoModel.Country">
+              <MappingFragment StoreEntitySet="Countries">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FillmGenres">
+            <EntityTypeMapping TypeName="kinoModel.FillmGenre">
+              <MappingFragment StoreEntitySet="FillmGenre">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="GenreId" ColumnName="GenreId" />
+                <ScalarProperty Name="FilmId" ColumnName="FilmId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Genres">
+            <EntityTypeMapping TypeName="kinoModel.Genre">
+              <MappingFragment StoreEntitySet="Genres">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="FilmCountries">
+            <EntityTypeMapping TypeName="kinoModel.FilmCountry">
+              <MappingFragment StoreEntitySet="FilmCountry">
+                <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+                <ScalarProperty Name="FilmId" ColumnName="FilmId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Films">
+            <EntityTypeMapping TypeName="kinoModel.Film">
+              <MappingFragment StoreEntitySet="Films">
+                <ScalarProperty Name="Video" ColumnName="Video" />
+                <ScalarProperty Name="Duration" ColumnName="Duration" />
+                <ScalarProperty Name="YayimTarixi" ColumnName="YayimTarixi" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram DiagramId="9a1a2e8d0e204680a3d9af408a76ab9c" Name="Diagram1">
+        <EntityTypeShape EntityType="kinoModel.Country" Width="1.5" PointX="2.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="kinoModel.FillmGenre" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="kinoModel.Genre" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <AssociationConnector Association="kinoModel.FK_FillmGenre_FillmGenre" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="kinoModel.FilmCountry" Width="1.5" PointX="5" PointY="3.75" />
+        <AssociationConnector Association="kinoModel.FK_FilmCountry_Films" />
+        <EntityTypeShape EntityType="kinoModel.Film" Width="1.5" PointX="0.75" PointY="1.125" />
+        <AssociationConnector Association="kinoModel.FK_FillmGenre_Films" />
+        <AssociationConnector Association="kinoModel.FK_FilmCountry_Films1" />
+        </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,190 @@
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\ApplicationInsights.config
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\CinemaAddMultiple.dll.config
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\CinemaAddMultiple.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\CinemaAddMultiple.pdb
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\csc.exe
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\csc.exe.config
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\csc.rsp
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\csi.exe
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\csi.exe.config
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\csi.rsp
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.AppContext.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Console.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.IO.Compression.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.IO.Pipes.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.Claims.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Threading.Thread.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.ValueTuple.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Xml.XPath.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\vbc.exe
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\vbc.exe.config
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\vbc.rsp
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\VBCSCompiler.exe
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Antlr3.Runtime.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\EntityFramework.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\EntityFramework.SqlServer.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.Web.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.ApplicationInsights.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Newtonsoft.Json.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Helpers.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Mvc.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Optimization.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Razor.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.WebPages.Deployment.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.WebPages.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.WebPages.Razor.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\WebGrease.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\EntityFramework.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\EntityFramework.SqlServer.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Helpers.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Mvc.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Optimization.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Razor.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.WebPages.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.WebPages.Deployment.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.WebPages.Razor.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Antlr3.Runtime.pdb
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Newtonsoft.Json.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.ApplicationInsights.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.Web.xml
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\obj\Debug\CinemaAddMultiple.csprojResolveAssemblyReference.cache
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\obj\Debug\CinemaAddMultiple.csproj.CoreCompileInputs.cache
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\obj\Debug\CinemaAddMultiple.csproj.CopyComplete
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\obj\Debug\CinemaAddMultiple.dll
+C:\Users\P304\Desktop\ASP file\CinemaAddMultiple\CinemaAddMultiple\obj\Debug\CinemaAddMultiple.pdb
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\ApplicationInsights.config
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\CinemaAddMultiple.dll.config
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\CinemaAddMultiple.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\CinemaAddMultiple.pdb
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\csc.exe
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\csc.exe.config
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\csc.rsp
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\csi.exe
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\csi.exe.config
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\csi.rsp
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.AppContext.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Console.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.IO.Compression.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.Claims.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.ValueTuple.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\vbc.exe
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\vbc.exe.config
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\vbc.rsp
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Antlr3.Runtime.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\EntityFramework.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\EntityFramework.SqlServer.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.Web.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Newtonsoft.Json.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Helpers.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Mvc.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Optimization.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Razor.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.WebPages.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.WebPages.Razor.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\WebGrease.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\EntityFramework.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\EntityFramework.SqlServer.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Helpers.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Mvc.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Optimization.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.Razor.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.WebPages.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\System.Web.WebPages.Razor.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Antlr3.Runtime.pdb
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Newtonsoft.Json.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\bin\Microsoft.AI.Web.xml
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\obj\Debug\CinemaAddMultiple.csprojResolveAssemblyReference.cache
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\obj\Debug\CinemaAddMultiple.csproj.CoreCompileInputs.cache
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\obj\Debug\CinemaAddMultiple.csproj.CopyComplete
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\obj\Debug\CinemaAddMultiple.dll
+C:\Users\Tofig\Desktop\ASP.net\CinemaAddMultiple\CinemaAddMultiple\obj\Debug\CinemaAddMultiple.pdb

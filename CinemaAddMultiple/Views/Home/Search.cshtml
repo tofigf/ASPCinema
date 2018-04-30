@@ -1,0 +1,36 @@
+﻿@using CinemaAddMultiple.Models
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>All Films</h2>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-6">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Primiere</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (Film item in ViewBag.Films)
+                {
+                    <tr class="trchange">
+                        <td class="tdchange">@item.Name</td>
+                        <td class="tdchange">@item.YayimTarixi.Value.ToString("dd.MM.yyyy")</td>
+                        <td class="tdchange">@item.Duration</td>
+                        <td>
+
+                            <iframe width="200" height="100" src="@item.Video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-md-2"></div>
+</div>

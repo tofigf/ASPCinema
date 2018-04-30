@@ -1,0 +1,45 @@
+﻿
+@model CinemaAddMultiple.Models.Film
+
+@{
+    ViewBag.Title = "More";
+}
+<hr />
+<div class="row">
+    <div class="col md-12">
+        <div class="col-md-4">
+            <h3 class="film">Film</h3>
+            <ul class="media-list my">
+                <li class="media-list il">
+                    <span>Film:</span>  @Model.Name
+                </li>
+                <li class="media-list il">
+                    <span>Primiere:</span>@Model.YayimTarixi.Value.ToShortDateString()
+                </li>
+                <li class="media-list il">
+                    <span>Duration:</span>@Model.Duration
+                </li>
+                <li class="media-list il">
+                    <span>Country:</span>
+                    @foreach (var item in Model.FilmCountries.ToList())
+                    {
+                        @item.Country.Name<span>,</span>
+                    }
+                </li>
+                <li class="media-list il">
+                    <span>Genre:</span>
+                    @foreach (var item in Model.FillmGenres.ToList())
+                    {
+                        @item.Genre.Name<span>,</span>
+                    }
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-8">
+            <div class="iframe">
+                <iframe width="560" height="315" src="@Model.Video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
